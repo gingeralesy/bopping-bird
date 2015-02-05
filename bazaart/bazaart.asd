@@ -3,7 +3,7 @@
   :version "0.1"
   :description "Bazaart - Art Trade."
   :author "Janne"
-  :defsystem-depends-on (:radiance :r-clip)
+  :defsystem-depends-on (:radiance)
   :class "radiance:module"
   :components ((:file "bazaart"))
-  :depends-on NIL)
+  :depends-on (:r-clip))
