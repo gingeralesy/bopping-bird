@@ -7,7 +7,7 @@
 
 ;; (define-target-route ensure-main-route (() * *) (((bazaart) * *)))
 
-(define-page index #@"bazaart/" (:lquery (template "index.ctml"))
+(define-page index #@"bazaart/" (:lquery (template "frontpage.ctml"))
   (setf lquery:*lquery-master-document*
         (plump:strip lquery:*lquery-master-document*)))
 
